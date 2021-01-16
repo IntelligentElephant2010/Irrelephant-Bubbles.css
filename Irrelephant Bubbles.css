@@ -1,0 +1,55 @@
+/* 
+*
+*Irrelephant Bubbles.css  by IntelligentElephant2010, the most intelligent elephant. 
+* do not remove this header if you are using this 
+* will add license later 
+*
+*/
+
+span[style^="font-family:'reminder"] {
+background-image: linear-gradient(to right, #53AD0D, #72D11E, #90F32C);
+color: white;
+padding: 17px;
+border-radius: 5px;
+margin: 15px;
+font-family: Arial, sans-serif !important;
+border: none;
+display: block;
+}
+span[style^="font-family:'reminder"]:before {
+content: "Reminder: ";
+font-weight: bold;
+}
+ 
+span[style^="font-family:'urgent"] {
+background-color: white;
+color: black;
+padding: 17px;
+border-radius: 5px;
+margin: 15px;
+font-family: Arial, sans-serif !important;
+border: solid 5px #E00225;
+display: block;
+}
+span[style^="font-family:'urgent"]:before {
+content: "\2757URGENT\2757 ";
+font-weight: bold;
+color: #E00225;
+}
+ 
+span[style^="font-family:'warning"] {
+padding: 17px;
+border-radius: 5px;
+margin: 15px;
+font-family: Arial, sans-serif !important;
+border: none;
+display: block;
+background-color: #DFBE00;
+color: black;
+}
+ 
+span[style^="font-family:'warning"]:before {
+content: "\26A0 WARNING: ";
+font-weight: bold;
+color: black;
+}
